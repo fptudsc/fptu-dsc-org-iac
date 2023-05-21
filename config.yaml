@@ -19,8 +19,15 @@ backend:
 
 branch_leader:
   description: Group consist of all leader in all branches
-  admin: true
+  admin: false
   member_username:
-    - baolongv3
     - quangdatpham
     - pphuc25
+    - trungkien100823
+
+operator:
+  description: Group consist of github organization owner
+  admin: true 
+  member_username:
+    - quangdatpham
+    - baolongv3

@@ -21,9 +21,9 @@ branch_leader:
   description: Group consist of all leader in all branches
   admin: false
   member_username:
-    - quangdatpham
     - pphuc25
     - trungkien100823
+    - KangThuan
 
 operator:
   description: Group consist of github organization owner

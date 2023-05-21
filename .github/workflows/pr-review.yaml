@@ -5,9 +5,7 @@ on:
       - "main"
 jobs:
   Plan:
-    runs-on:  ubuntu-latest
-    steps:
-      - name: Plan 
-        uses: fptudsc/fptu-dsc-terraform-workflow-shared/.github/workflows/terraform-pr-review.yaml
-        with:
+    uses: fptudsc/fptu-dsc-terraform-workflow-shared/.github/workflows/terraform-pr-review.yaml@main
+    secrets: inherit
+    with:
           terraform-version: 1.3.5

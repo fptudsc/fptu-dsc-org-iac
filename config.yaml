@@ -8,12 +8,14 @@ devops:
 frontend:
   description: Group consist of member in DevOps branches
   admin: false
-  member_username: []
+  member_username: 
+   - dangtrannam
 
 backend:
   description: Group consist of member in DevOps branches
   admin: false
-  member_username: []
+  member_username: 
+   - dangtrannam
 
 branch_leader:
   description: Group consist of all leader in all branches

@@ -5,11 +5,11 @@ terraform {
       version = "~> 5.0"
     }
   }
-  backend "remote"{
-    hostname = "app.terraform.io"
+  backend "remote" {
+    hostname     = "app.terraform.io"
     organization = "fptudsc"
     workspaces {
-        name = "fptudsc-org-iac"
+      name = "fptudsc-org-iac"
     }
   }
 }

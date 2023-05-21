@@ -17,7 +17,7 @@ resource "github_team_members" "some_team_members" {
 
   team_id = each.value.id
   dynamic "members" {
-    for_each = toset(local.branches_data[each.key].member_emails)
+    for_each = toset(local.branches_data[each.key].member_username)
     content {
       username = members.value
       role     = "member"

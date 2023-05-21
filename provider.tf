@@ -5,6 +5,13 @@ terraform {
       version = "~> 5.0"
     }
   }
+  backend "remote"{
+    hostname = "app.terraform.io"
+    organization = "fptudsc"
+    workspaces {
+        name = "fptudsc-org-iac"
+    }
+  }
 }
 
 # Configure the GitHub Provider

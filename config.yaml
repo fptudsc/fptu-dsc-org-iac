@@ -1,16 +1,24 @@
 devops:
   description: FPTU DSC DevOps branches
-  member_emails:
-    - baolongv3
+  admin: false
+  member_username:
     - kaitoz11
     - YP2743
     - TranNgocNam2
     - dawngn
 frontend:
   description: Group consist of member in DevOps branches
-  member_emails:
+  admin: false
+  member_username:
     - baolongv3
 backend:
-  description: Group consist of member in DevOps branchess
-  member_emails:
+  description: Group consist of member in DevOps branches
+  admin: false
+  member_username:
+    - baolongv3
+
+branch_leader:
+  description: Group consist of all leader in all branches
+  admin: true
+  member_username:
     - baolongv3

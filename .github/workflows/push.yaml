@@ -8,5 +8,5 @@ jobs:
     uses: fptudsc/fptu-dsc-terraform-workflow-shared/.github/workflows/terraform-apply.yaml@main
     secrets: inherit
     with:
-          terraform-version: 1.3.5
+          terraform-version: 1.4.6
           deploy_environment: deployment

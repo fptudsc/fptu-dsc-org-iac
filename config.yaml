@@ -25,6 +25,7 @@ branch_leader:
     - pphuc25
     - trungkien100823
     - KangThuan
+    - quangdatpham
 
 operator:
   description: Group consist of github organization owner

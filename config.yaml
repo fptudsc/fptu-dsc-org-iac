@@ -1,0 +1,12 @@
+devops:
+  description: FPTU DSC DevOps branches
+  member_emails:
+    - baolongv4@gmail.com
+frontend:
+  description: Group consist of member in DevOps branches
+  member_emails:
+    - baolongv4@gmail.com
+backend:
+  description: Group consist of member in DevOps branchess
+  member_emails:
+    - baolongv4@gmail.com

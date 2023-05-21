@@ -1,0 +1,13 @@
+name: "Pull Request Review"
+on: 
+  pull_request:
+    branches: 
+      - "main"
+jobs:
+  Plan:
+    runs-on:  ubuntu-latest
+    steps:
+      - name: Plan 
+        uses: fptudsc/fptu-dsc-terraform-workflow-shared/.github/workflows/terraform-pr-review.yaml
+        with:
+          terraform-version: 1.3.5

@@ -5,20 +5,29 @@ devops:
     - kaitoz11
     - YP2743
     - TranNgocNam2
-    - dawngn
 frontend:
   description: Group consist of member in DevOps branches
   admin: false
-  member_username:
-    - baolongv3
+  member_username: 
+   - dangtrannam
+
 backend:
   description: Group consist of member in DevOps branches
   admin: false
-  member_username:
-    - baolongv3
+  member_username: 
+   - dangtrannam
 
 branch_leader:
   description: Group consist of all leader in all branches
-  admin: true
+  admin: false
   member_username:
+    - pphuc25
+    - trungkien100823
+    - KangThuan
+
+operator:
+  description: Group consist of github organization owner
+  admin: true 
+  member_username:
+    - quangdatpham
     - baolongv3

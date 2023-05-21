@@ -1,5 +1,6 @@
 devops:
   description: FPTU DSC DevOps branches
+  admin: false
   member_username:
     - kaitoz11
     - YP2743
@@ -7,10 +8,12 @@ devops:
     - dawngn
 frontend:
   description: Group consist of member in DevOps branches
+  admin: false
   member_username:
     - baolongv3
 backend:
-  description: Group consist of member in DevOps branchess
+  description: Group consist of member in DevOps branches
+  admin: false
   member_username:
     - baolongv3
 

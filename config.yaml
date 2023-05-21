@@ -8,13 +8,12 @@ devops:
 frontend:
   description: Group consist of member in DevOps branches
   admin: false
-  member_username:
-    - baolongv3
+  member_username: []
+
 backend:
   description: Group consist of member in DevOps branches
   admin: false
-  member_username:
-    - baolongv3
+  member_username: []
 
 branch_leader:
   description: Group consist of all leader in all branches

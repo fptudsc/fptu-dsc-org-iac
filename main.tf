@@ -18,7 +18,7 @@ resource "github_membership" "admin_membership" {
 }
 
 
-resource "github_team_members" "some_team_members" {
+resource "github_team_members" "team_members" {
   depends_on = [github_membership.user_membership]
   for_each   = github_team.teams
 

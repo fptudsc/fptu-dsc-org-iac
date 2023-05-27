@@ -34,6 +34,7 @@ branch_leader:
     - trungkien100823
     - KangThuan
     - quangdatpham
+    - dinhbach306
 
 operator:
   description: Group consist of github organization owner

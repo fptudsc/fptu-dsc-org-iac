@@ -14,6 +14,7 @@ devops:
     - ChieNQuang
     - UyLeQuoc
     - baolongv3
+    - baolongkms
 frontend:
   description: Group consist of member in DevOps branches
   admin: false
@@ -42,4 +43,5 @@ operator:
   member_username:
     - quangdatpham
     - baolongv3
+    - baolongkms
 
